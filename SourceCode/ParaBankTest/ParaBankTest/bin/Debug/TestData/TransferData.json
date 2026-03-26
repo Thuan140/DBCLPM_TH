@@ -1,0 +1,74 @@
+[
+  {
+    "TestCaseID": "TC_TF_01",
+    "Description": "Chuyển tiền thành công giữa hai tài khoản hợp lệ (100$)",
+    "Amount": "100",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "Transfer Complete!"
+  },
+  {
+    "TestCaseID": "TC_TF_02",
+    "Description": "Chuyển tiền thành công giữa hai tài khoản hợp lệ (1100$)",
+    "Amount": "1100",
+    "FromAccountIndex": "1",
+    "ToAccountIndex": "0",
+    "ExpectedResult": "Transfer Complete!"
+  },
+  {
+    "TestCaseID": "TC_TF_03",
+    "Description": "Chuyển tiền thành công giữa hai tài khoản hợp lệ (3100$)",
+    "Amount": "3100",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "2",
+    "ExpectedResult": "Transfer Complete!"
+  },
+  {
+    "TestCaseID": "TC_TF_04",
+    "Description": "Kiểm tra xem có thể để trùng From account và To account không",
+    "Amount": "3100",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "0",
+    "ExpectedResult": "cannot transfer to the same account"
+  },
+  {
+    "TestCaseID": "TC_TF_05",
+    "Description": "Kiểm tra thông báo lỗi khi nhập số tiền chuyển là số âm (-50$)",
+    "Amount": "-50",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "The amount must be a positive value"
+  },
+  {
+    "TestCaseID": "TC_TF_06",
+    "Description": "Kiểm tra thông báo lỗi khi nhập số tiền chuyển là số âm (-123250$)",
+    "Amount": "-123250",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "The amount must be a positive value"
+  },
+  {
+    "TestCaseID": "TC_TF_07",
+    "Description": "Kiểm tra thông báo lỗi khi nhập số tiền chuyển là số âm (-2312350$)",
+    "Amount": "-2312350",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "The amount must be a positive value"
+  },
+  {
+    "TestCaseID": "TC_TF_08",
+    "Description": "Kiểm tra báo lỗi khi số tiền chuyển lớn hơn số dư hiện có",
+    "Amount": "999999999",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "Insufficient funds"
+  },
+  {
+    "TestCaseID": "TC_TF_09",
+    "Description": "Kiểm tra hệ thống khi người dùng để trống trường số tiền (Amount)",
+    "Amount": "",
+    "FromAccountIndex": "0",
+    "ToAccountIndex": "1",
+    "ExpectedResult": "The amount is required"
+  }
+]

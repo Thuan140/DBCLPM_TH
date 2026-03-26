@@ -1,0 +1,16 @@
+[
+  {
+    "TestCaseID": "TC_OA_01",
+    "Description": "Mở tài khoản thanh toán (Checking) mới",
+    "AccountType": "0",
+    "FromAccountIndex": "0",
+    "ExpectedResult": "Account Opened!"
+  },
+  {
+    "TestCaseID": "TC_OA_02",
+    "Description": "Mở tài khoản tiết kiệm (Savings) mới",
+    "AccountType": "1",
+    "FromAccountIndex": "0",
+    "ExpectedResult": "Account Opened!"
+  }
+]

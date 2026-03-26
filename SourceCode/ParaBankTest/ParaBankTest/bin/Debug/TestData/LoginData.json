@@ -1,0 +1,44 @@
+[
+  {
+    "TestCaseID": "TC_LG_01",
+    "Description": "Đăng nhập thành công với tài khoản hợp lệ",
+    "Username": "thuan12",
+    "Password": "Adsada2.",
+    "ExpectedResult": "Accounts Overview"
+  },
+  {
+    "TestCaseID": "TC_LG_02",
+    "Description": "Đăng nhập thất bại do sai mật khẩu",
+    "Username": "thuan123",
+    "Password": "654321",
+    "ExpectedResult": "The username and password could not be verified."
+  },
+  {
+    "TestCaseID": "TC_LG_03",
+    "Description": "Đăng nhập thất bại do tài khoản không tồn tại",
+    "Username": "thuan12423",
+    "Password": "123456",
+    "ExpectedResult": "The username and password could not be verified."
+  },
+  {
+    "TestCaseID": "TC_LG_04",
+    "Description": "Đăng nhập thất bại khi để trống Username, chỉ nhập Password",
+    "Username": "",
+    "Password": "123456",
+    "ExpectedResult": "Please enter a username and password."
+  },
+  {
+    "TestCaseID": "TC_LG_05",
+    "Description": "Đăng nhập thất bại khi chỉ nhập Username, để trống Password",
+    "Username": "thuan123",
+    "Password": "",
+    "ExpectedResult": "Please enter a username and password."
+  },
+  {
+    "TestCaseID": "TC_LG_06",
+    "Description": "Đăng nhập thất bại khi để trống cả hai trường",
+    "Username": "",
+    "Password": "",
+    "ExpectedResult": "Please enter a username and password."
+  }
+]

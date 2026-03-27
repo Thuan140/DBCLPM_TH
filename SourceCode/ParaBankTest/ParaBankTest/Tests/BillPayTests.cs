@@ -36,7 +36,7 @@ namespace ParaBankTest.Tests
 
             // BƯỚC 1: Đăng nhập trước khi thanh toán hóa đơn
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/index.htm");
-            loginPage.Login("thuan12", "Adsada2."); // Thay bằng tài khoản thật của Thuận
+            loginPage.Login("thuan12", "Adsada2.");
 
             // Dập popup Chrome bằng phím ESC
             try
@@ -61,33 +61,44 @@ namespace ParaBankTest.Tests
                     // 2. Vào menu Bill Pay
                     billPayPage.ClickBillPayMenu();
 
-                    // 3. Điền toàn bộ Form thanh toán (Hàm này dùng dynamic data từ JSON)
+                    // 3. Điền toàn bộ Form thanh toán
                     billPayPage.FillBillForm(data);
 
-                    // 4. Lấy kết quả thực tế (Hàm này xử lý cả lỗi đỏ class="error" và thành công)
+                    // 4. Lấy kết quả thực tế
                     string actual = billPayPage.GetResultText();
                     string expected = data.ExpectedResult.ToString();
 
-                    // Chuẩn hóa chuỗi để so sánh chính xác
+                    // Chuẩn hóa chuỗi để so sánh
                     string actualClean = actual.ToLower().Trim();
                     string expectedClean = expected.ToLower().Trim();
 
+                    // CHỤP ẢNH MÀN HÌNH (Chụp trước khi ghi file Excel để có đường dẫn)
+                    string screenPath = CaptureHelper.TakeScreenshot(driver, testCaseID);
+
                     if (actualClean.Contains(expectedClean))
                     {
-                        // PASS: Ghi chú số tiền đã thanh toán cho ai
+                        // PASS: Bây giờ đã có screenPath để truyền vào Excel
                         ExcelHelper.UpdateExcel(excelPath, testCaseID, actual, "PASS", "");
                     }
                     else
                     {
-                        // FAIL: Chụp ảnh màn hình làm bằng chứng
-                        string screenPath = CaptureHelper.TakeScreenshot(driver, testCaseID);
+                        // FAIL: Truyền thông tin lỗi và ảnh chụp
                         ExcelHelper.UpdateExcel(excelPath, testCaseID, actual, "FAIL", screenPath);
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Lỗi Case {testCaseID}: {ex.Message}");
-                    ExcelHelper.UpdateExcel(excelPath, testCaseID, "Lỗi hệ thống", "FAIL", ex.Message);
+                    // Nếu lỗi hệ thống, cố gắng chụp ảnh một lần nữa nếu driver còn sống
+                    try
+                    {
+                        string errScreen = CaptureHelper.TakeScreenshot(driver, testCaseID + "_ERR");
+                        ExcelHelper.UpdateExcel(excelPath, testCaseID, "Lỗi hệ thống", "FAIL", errScreen);
+                    }
+                    catch
+                    {
+                        ExcelHelper.UpdateExcel(excelPath, testCaseID, "Lỗi hệ thống", "FAIL", ex.Message);
+                    }
                 }
             }
         }

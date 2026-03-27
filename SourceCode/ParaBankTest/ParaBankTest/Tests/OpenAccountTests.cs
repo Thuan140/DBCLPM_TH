@@ -38,7 +38,7 @@ namespace ParaBankTest.Tests
 
             // BƯỚC QUAN TRỌNG: Login trước để có quyền vào trang Open Account
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/index.htm");
-            loginPage.Login("thuan12", "Adsada2."); // Thay bằng user/pass đúng của bạn
+            loginPage.Login("thuan12", "Adsada2.");
         }
 
         [Test]

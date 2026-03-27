@@ -9,14 +9,14 @@
   {
     "TestCaseID": "TC_LG_02",
     "Description": "Đăng nhập thất bại do sai mật khẩu",
-    "Username": "thuan123",
-    "Password": "654321",
+    "Username": "thuan12",
+    "Password": "1234567",
     "ExpectedResult": "The username and password could not be verified."
   },
   {
     "TestCaseID": "TC_LG_03",
     "Description": "Đăng nhập thất bại do tài khoản không tồn tại",
-    "Username": "thuan12423",
+    "Username": "thuana242adsad3",
     "Password": "123456",
     "ExpectedResult": "The username and password could not be verified."
   },

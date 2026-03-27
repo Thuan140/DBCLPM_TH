@@ -10,8 +10,8 @@
     "ZipCode": "70000",
     "Phone": "0901234567",
     "SSN": "123456789",
-    "Username": "thuan123",
-    "Password": "123",
+    "Username": "thuan12",
+    "Password": "Adsada2.",
     "Confirm": "123",
     "ExpectedResult": "Your account was created successfully"
   },
@@ -218,7 +218,7 @@
     "ZipCode": "70000",
     "Phone": "0901234567",
     "SSN": "123456789",
-    "Username": "thuan123",
+    "Username": "thuan12",
     "Password": "123456",
     "Confirm": "123456",
     "ExpectedResult": "This username already exists."

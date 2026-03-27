@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
 
 namespace ParaBankTest.Tests
 {
@@ -30,7 +31,7 @@ namespace ParaBankTest.Tests
             options.AddArgument("--disable-notifications");
 
             driver = new ChromeDriver(options);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5); // Giảm xuống 5s cho nhanh
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             driver.Manage().Window.Maximize();
             loginPage = new LoginPage(driver);
         }
@@ -52,28 +53,51 @@ namespace ParaBankTest.Tests
                     string actual = loginPage.GetResultText();
                     string expected = data.ExpectedResult.ToString();
 
-
+                    // 1. Kiểm tra và ghi kết quả vào Excel trước
                     if (actual.ToLower().Contains(expected.ToLower()))
                     {
                         ExcelHelper.UpdateExcel(excelPath, testCaseID, actual, "PASS", "");
-
-                        if (testCaseID == "TC_LG_01")
-                        {
-                            loginPage.Logout();
-                            // Kiểm tra xem đã về trang chủ chưa (thấy ô login là pass)
-                            string afterLogout = loginPage.GetResultText();
-                            ExcelHelper.UpdateExcel(excelPath, "TC_LO_01", "Đã đăng xuất và quay về trang chủ", "PASS", "");
-                        }
                     }
                     else
                     {
                         string screenPath = CaptureHelper.TakeScreenshot(driver, testCaseID);
                         ExcelHelper.UpdateExcel(excelPath, testCaseID, actual, "FAIL", screenPath);
                     }
+
+                    // --- 2. LOGIC LOGOUT CHO TỪNG TRƯỜNG HỢP ---
+
+                    // Trường hợp TC_LG_01: Đăng nhập đúng thì Logout ngay để kết thúc luồng chuẩn
+                    if (testCaseID == "TC_LG_01")
+                    {
+                        loginPage.Logout();
+                        ExcelHelper.UpdateExcel(excelPath, "TC_LO_01", "Đã đăng xuất thành công", "PASS", "");
+                    }
+
+                    // Trường hợp TC_LG_02: Đăng nhập SAI mà web vẫn cho vào -> Đợi 2s rồi "đá" ra
+                    else if (testCaseID == "TC_LG_02")
+                    {
+                        Thread.Sleep(2000); // Đợi 2s theo ý bạn
+                        try
+                        {
+                            loginPage.Logout();
+                            
+                        }
+                        catch {}
+                    }
+                    else if (testCaseID == "TC_LG_03")
+                    {
+                        Thread.Sleep(2000);
+                        try
+                        {
+                            loginPage.Logout();
+
+                        }
+                        catch {}
+                    }
                 }
                 catch (Exception ex)
                 {
-                    ExcelHelper.UpdateExcel(excelPath, testCaseID, ex.Message, "FAIL", "");
+                    ExcelHelper.UpdateExcel(excelPath, testCaseID, "Lỗi: " + ex.Message, "FAIL", "");
                 }
             }
         }

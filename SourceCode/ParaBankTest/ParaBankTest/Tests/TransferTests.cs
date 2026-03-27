@@ -37,7 +37,7 @@ namespace ParaBankTest.Tests
 
             // BƯỚC 1: Đăng nhập trước khi vào trang chuyển tiền
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/index.htm");
-            loginPage.Login("thuan12", "Adsada2."); // Thay bằng User/Pass chuẩn của Thuận
+            loginPage.Login("thuan12", "Adsada2.");
 
             // Dập tắt popup Chrome nếu có bằng phím ESC
             try

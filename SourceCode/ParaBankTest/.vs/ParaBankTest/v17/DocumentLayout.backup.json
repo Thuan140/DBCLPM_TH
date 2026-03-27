@@ -11,20 +11,28 @@
       "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\tests\\transfertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\testdata\\transferdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\testdata\\transferdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\tests\\openaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\tests\\openaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\testdata\\billpaydata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\testdata\\billpaydata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\pages\\billpaypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\pages\\billpaypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\pages\\transferpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\pages\\transferpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|c:\\baodamchatluongpm\\tuan7-9(new)\\sourcecode\\parabanktest\\parabanktest\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFB2FDC1-8970-467A-98D8-8EFCA0FF7C67}|ParaBankTest\\ParaBankTest.csproj|solutionrelative:parabanktest\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,58 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BillPayData.json",
-              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\BillPayData.json",
-              "RelativeDocumentMoniker": "ParaBankTest\\TestData\\BillPayData.json",
-              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\BillPayData.json",
-              "RelativeToolTip": "ParaBankTest\\TestData\\BillPayData.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LoginData.json",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\LoginData.json",
+              "RelativeDocumentMoniker": "ParaBankTest\\TestData\\LoginData.json",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\LoginData.json",
+              "RelativeToolTip": "ParaBankTest\\TestData\\LoginData.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-26T17:13:28.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BillPayTests.cs",
-              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\BillPayTests.cs",
-              "RelativeDocumentMoniker": "ParaBankTest\\Tests\\BillPayTests.cs",
-              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\BillPayTests.cs",
-              "RelativeToolTip": "ParaBankTest\\Tests\\BillPayTests.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwCEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:11:34.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BillPayPage.cs",
-              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Pages\\BillPayPage.cs",
-              "RelativeDocumentMoniker": "ParaBankTest\\Pages\\BillPayPage.cs",
-              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Pages\\BillPayPage.cs",
-              "RelativeToolTip": "ParaBankTest\\Pages\\BillPayPage.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:10:50.598Z",
+              "WhenOpened": "2026-03-27T00:28:47.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransferData.json",
-              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\TransferData.json",
-              "RelativeDocumentMoniker": "ParaBankTest\\TestData\\TransferData.json",
-              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\TransferData.json",
-              "RelativeToolTip": "ParaBankTest\\TestData\\TransferData.json",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-26T16:39:06.521Z",
+              "Title": "RegisterTests.cs",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\RegisterTests.cs",
+              "RelativeDocumentMoniker": "ParaBankTest\\Tests\\RegisterTests.cs",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\RegisterTests.cs",
+              "RelativeToolTip": "ParaBankTest\\Tests\\RegisterTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T00:09:28.207Z",
               "EditorCaption": ""
             },
             {
@@ -96,22 +78,74 @@
               "RelativeDocumentMoniker": "ParaBankTest\\Tests\\TransferTests.cs",
               "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\TransferTests.cs",
               "RelativeToolTip": "ParaBankTest\\Tests\\TransferTests.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:37:08.554Z",
+              "WhenOpened": "2026-03-27T00:09:38.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransferPage.cs",
-              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Pages\\TransferPage.cs",
-              "RelativeDocumentMoniker": "ParaBankTest\\Pages\\TransferPage.cs",
-              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Pages\\TransferPage.cs",
-              "RelativeToolTip": "ParaBankTest\\Pages\\TransferPage.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCgAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LoginTests.cs",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\LoginTests.cs",
+              "RelativeDocumentMoniker": "ParaBankTest\\Tests\\LoginTests.cs",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\LoginTests.cs",
+              "RelativeToolTip": "ParaBankTest\\Tests\\LoginTests.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwEgAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:36:55.232Z",
+              "WhenOpened": "2026-03-27T00:09:29.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpenAccountTests.cs",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\OpenAccountTests.cs",
+              "RelativeDocumentMoniker": "ParaBankTest\\Tests\\OpenAccountTests.cs",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\OpenAccountTests.cs",
+              "RelativeToolTip": "ParaBankTest\\Tests\\OpenAccountTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T00:09:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillPayTests.cs",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\BillPayTests.cs",
+              "RelativeDocumentMoniker": "ParaBankTest\\Tests\\BillPayTests.cs",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\Tests\\BillPayTests.cs",
+              "RelativeToolTip": "ParaBankTest\\Tests\\BillPayTests.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwFMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T00:09:39.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BillPayData.json",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\BillPayData.json",
+              "RelativeDocumentMoniker": "ParaBankTest\\TestData\\BillPayData.json",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\BillPayData.json",
+              "RelativeToolTip": "ParaBankTest\\TestData\\BillPayData.json",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T00:56:30.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterData.json",
+              "DocumentMoniker": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\RegisterData.json",
+              "RelativeDocumentMoniker": "ParaBankTest\\TestData\\RegisterData.json",
+              "ToolTip": "C:\\BaoDamChatLuongPM\\Tuan7-9(New)\\SourceCode\\ParaBankTest\\ParaBankTest\\TestData\\RegisterData.json",
+              "RelativeToolTip": "ParaBankTest\\TestData\\RegisterData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T00:26:35.993Z",
               "EditorCaption": ""
             }
           ]
